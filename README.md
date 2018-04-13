@@ -1,1 +1,1 @@
-Website that I build for my club on campus. I did the whole website from scratch using Boostrap, HTML, CSS, Jquery, and a bit of PhP.
+This is all the code that powers the CS Club website. Although, the 'Contact' folder contains old code from when I had the contact page. I also have it set up to use phpMailer. 
