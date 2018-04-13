@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>CS Club</title>
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <link href="../css/contact.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="navbar navbar-inverse navbar-fixed-top hacky-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">
+                     <img id="logo" style="height:50px; width:90px;" src="../images/logo.png" alt="CS Club Logo">
+                    </a></li>
+                    <li><a href="../">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Offerings</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../Hackathons">Hackathons</a>
+                            <a class="dropdown-item" href="../Workshops">Workshops</a>
+                        </div>
+                    </li>
+                    <li><a href="../About">About</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="jumbotron" id="intro-section">
+        <div class="container jumbotron-content">
+            <h1 class="section-heading">Got suggestions? <code>Give us a shout!</code></h1>
+            <p>We will be working hard to respond to you as soon as possible!</p>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="container">
+        <div class="contact-container">
+            <form id="contact-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Mark">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Zuckerberg">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="mzuckerberg@gmail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Comments, conerns, improvements..." style="height: 200px"></textarea>
+
+                <button class="btn btn-success button btn2" id="contact-submit-button" type="submit">
+          Submit
+        </button>
+            </form>
+        </div>
+        <div id="hidden-div">
+            <p>Thank you for your submission. We will try to get back to you as soon as we can! We will now redirect you to the home page.</p>
+        </div>
+    </div>
+    <div class="jumbotron" id="footer">
+        <div class="container">
+            <!-- <img src="./images/tutor.jpg" alt="Image" height="300"width="1000"> -->
+            <p>Connect With Us</p>
+            <a href="https://twitter.com/CS_Club_Stan">
+                <i class="fa fa-twitter" id="icons" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/csustan-cs-club">
+                <i class="fa fa-github" id="icons" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/pg/CSUSTANCSC/about/">
+                <i class="fa fa-facebook-official" id="icons" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="./contact.js"></script>
+</body>
+
+</html>
